@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <h2><img id="Logo" src="Images/view-dashboard-edit-outline.svg">Dashboard</h2>
+        </div>
+        <ul class="sidebar-top">
+            <li><img id="home" src="Images/home.svg">Home</li>
+            <li><img id="profile" src="Images/account-cowboy-hat-outline.svg">Profile</li>
+            <li><img id="messages" src="Images/message-reply-text.svg">Messages</li>
+            <li><img id="history" src="Images/history.svg">History</li>
+            <li><img id="tasks" src="Images/calendar-check.svg">Tasks</li>
+            <li><img id="communities" src="Images/account-group.svg">Communities</li>
+        </ul>
+        <ul class="sidebar-bottom">
+            <li><img id="settings" src="Images/cog-outline.svg">Settings</li>
+            <li><img id="support" src="Images/account-question-outline.svg">Support</li>
+            <li><img id="privacy" src="Images/shield-check-outline.svg">Privacy</li>
+        </ul>
+    </div>
+
+    <div class="header">
+        <div class="header-top">
+            <form class="form">
+                <img id="magnify" src="Images/magnify.svg">
+                <input type="search" id="search">
+            </form>
+            <img id="notifications" src="Images/bell-badge-outline.svg">
+
+            <div class="user-name">
+                <img id="profile-pic" src="Images/chomi.jpg">
+                <h2>ChoMi Mendoza</h2>
+            </div>
+        </div>
+        <ul class="header-bottom">
+            <li><img id="profile-pic" src="Images/chomi.jpg"></li>
+            <li><p>Hi there,</p><h2>ChoMi Mendoza (@chomi)</h2></li>
+            <li><button id="btn-new">New</button></li>
+            <li><button id="btn-upload">Upload</button></li>
+            <li><button id="btn-share">Share</button></li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+        <div class="left">
+            <h3>Your Projects</h3>
+            <div class="cards">
+                <div class="card" id="card1">
+                    <h4>Super Cool Project</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In est ante in nibh mauris.</p>
+                </div>
+
+                <div class="card" id="card2">
+                    <h3>Less Cool Project</h3>
+                    <p>Vitae suscipit tellus mauris a.</p>
+                </div>
+
+                <div class="card" id="card3">
+                    <h4>Impossible App</h4>
+                    <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                </div>
+
+                <div class="card" id="card4">
+                    <h4>Easy Peasy App</h4>
+                    <p>Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Bibendum at varius vel pharetra vel.</p>
+                </div>
+
+                <div class="card" id="card5">
+                    <h4>Ad Blocker</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="card" id="card6">
+                    <h4>Money Maker</h4>
+                    <p>Lectus sit amet est placerat in egestas erat imperdiet.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <h3>Announcements</h3>
+            <div class="announcement-card">
+                <h4>Site Maintenance</h4>
+                <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                <hr>
+                <h4>Community Share Day</h4>
+                <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsa nportitor...</p>
+                <hr>
+                <h4>Updated Privacy Policy</h4>
+                <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+            </div>
+            <h3>Trending</h3>
+            <div class="trending-card">
+                <ul>
+                    <li>
+                        <div class="avatar"><img src="Images/icons8-avatar-67.png"></div>
+                        <div class="user"><h4>@tegan</h4><p>World Peace Builder</p></div>
+                    </li>
+                    <li>
+                        <div class="avatar"><img src="Images/icons8-avatar-67 (1).png"></div>
+                        <div class="user"><h4>@morgan</h4><p>Super Cool Project</p></div>
+                    </li>
+                    <li>
+                        <div class="avatar"><img src="Images/icons8-avatar-64.png"></div>
+                        <div class="user"><h4>@kendall</h4><p>Life Changing App</p></div>
+                    </li>
+                    <li>
+                        <div class="avatar"><img src="Images/icons8-avatar-64 (1).png"></div>
+                        <div class="user"><h4>@alex</h4><p>No Traffic Maker</p></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+<footer id = "footer">MADE in ATL | 2022</footer>
+
+</html>

@@ -1,0 +1,177 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #f1f5f9;
+
+}
+
+/* Sidebar */
+.sidebar {
+    display: grid;
+    background-color: #38bdf8;
+    padding: 5px;
+    color: ivory;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 1.5em;
+}
+
+
+.sidebar img {
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+/* Header */
+.header {
+    display: grid;
+    background-color: white;
+    padding: 20px;
+
+}
+.header-top {
+    display: grid;
+    grid-template-columns: 7fr 1fr 3fr;
+    grid-column-end: span;
+}
+
+.user-name {
+    display: flex;
+}
+
+.header #magnify {
+    margin-left: 20px;
+}
+
+#search {
+    width: 600px;
+    height: 30px;
+    margin: 20px;
+    background-color: #f1f5f9;
+    border: solid #38bdf8;
+    border-radius: 180px;
+}
+
+.header img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+#notifications {
+    margin-top: 10px;
+}
+
+#profile-pic {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 360px;
+    padding: 10px;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+
+.header-bottom #profile-pic {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    margin: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #38bdf8;
+    border: none;
+    border-radius: 180px;
+    color: white;
+}
+
+/* Content */
+.content {
+    grid-column-start: 2;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.left {
+    margin: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border: solid #f1f5f9;
+    border-radius: 10px;
+    box-shadow: -8px 0px 0px 0px #fcd34d;
+}
+
+.card:hover {
+    border:solid #fcd34d
+}
+
+.right {
+    margin: 20px;
+    display: grid;
+}
+
+.trending-card {
+    margin: 10px;
+    background-color: white;
+    border: solid #f1f5f9;
+    border-radius: 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement-card {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid #f1f5f9;
+}
+
+hr {
+    border: solid #e5e7eb;
+}
+
+#footer {
+    font-size: 10pt;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
